@@ -78,8 +78,10 @@ nav:
   - Quick Start: quickstart.md
   - FAQ: faq.md
   - Glossary: glossary.md
+  - Engineering Necessity: engineering-necessity.md
   - 繁體中文:
     - 首頁: zh-tw/index.md
     - 快速入門: zh-tw/quickstart.md
     - 常見問題: zh-tw/faq.md
     - 術語表: zh-tw/glossary.md
+    - 工程必然性論證: zh-tw/engineering-necessity.md
