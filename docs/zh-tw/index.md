@@ -30,13 +30,13 @@ language: zh-tw
 
 今天，隨著大型語言模型（LLM）成為**通用認知執行器（Universal Cognitive Executor）**，我們抵達了第四個臨界點：**Task-native（任務原生）**。
 
-**Task Ontology Kernel（TOK）** 正是為這一範式轉移而生的理論核心。它定義了任務的本體結構——身份、狀態、生命週期、依賴關係與演化方式——使任務從非結構化的心理概念，轉化為**可被 AI 原生執行、版本化、治理與演化的系統級 Primitive**。
+**Task Ontology Kernel（TOK）** 正是為這一範式轉移而生的理論核心。它定義了任務的本體結構身份、狀態、生命週期、依賴關係與演化方式使任務從非結構化的心理概念，轉化為**可被 AI 原生執行、版本化、治理與演化的系統級 Primitive**。
 
 > 在 Task-native 系統中，任務成為執行、治理與演化的最小原生單位，而程式碼則成為由任務生成或協調的衍生產物。
 
 **核心亮點：**
 *   **任務本體形式化**：定義 Task Object 的 Intent、Context、Strategy、Evaluation 四層結構。
-*   **TOCA 認知架構**：提供以任務為核心的閉環認知系統——捕獲、調度、執行、驗證、演化。
+*   **TOCA 認知架構**：提供以任務為核心的閉環認知系統捕獲、調度、執行、驗證、演化。
 *   **Git-native 版本化**：任務定義與執行歷程完整版本化，確保可追溯與可審計。
 *   **AI-native 執行**：任務由 Agent 執行，而非直接執行腳本；Agent 自主選擇工具與策略。
 
@@ -50,7 +50,7 @@ language: zh-tw
 
 當我們反覆使用 LLM 時，會注意到一個現象：**Prompt 不只是一次性的指令，它們是可重用的認知結構。**
 
-如果一個 Prompt 被使用超過一次，它就不再只是 Prompt——它成為了一個**任務（Task）**。
+如果一個 Prompt 被使用超過一次，它就不再只是 Prompt它成為了一個**任務（Task）**。
 
 ```
 Stage 1: Prompt            → 「幫我寫登入 API」
@@ -90,7 +90,7 @@ Prompt 的本質是**未結構化的執行意圖（Unstructured Execution Intent
 
 ### 3.1 TOK 是什麼？
 
-**Task Ontology Kernel（任務本體核心）** 定義了任務的存在本質——它回答三個根本問題：
+**Task Ontology Kernel（任務本體核心）** 定義了任務的存在本質它回答三個根本問題：
 
 1.  **什麼是任務？** — 任務的結構、身份與屬性
 2.  **任務如何存在？** — 任務的狀態、生命週期與依賴
@@ -215,7 +215,7 @@ versioning:
 
 TOK 定義了「任務是什麼」，而 **TOCA（Task-Oriented Cognitive Architecture）** 則定義「任務如何在認知系統中運作」。
 
-傳統的計算架構是 Input → Process → Output（IPO）模型。但在 AI 原生環境中，我們需要的是**目標導向的閉環系統**——任務不只被執行一次，而是持續演化。
+傳統的計算架構是 Input → Process → Output（IPO）模型。但在 AI 原生環境中，我們需要的是**目標導向的閉環系統**任務不只被執行一次，而是持續演化。
 
 > TOCA 是一種以任務為核心持久單位的認知架構，使人類與 AI 能夠共同執行、演化與重複使用結構化的認知過程。
 
@@ -526,7 +526,7 @@ versioning:
 
 | 名稱 | 全稱 | 定義 |
 | :--- | :--- | :--- |
-| **TOK** | Task Ontology Kernel | 定義任務的本體結構——身份、狀態、依賴、演化 |
+| **TOK** | Task Ontology Kernel | 定義任務的本體結構身份、狀態、依賴、演化 |
 | **TOCA** | Task-Oriented Cognitive Architecture | 以任務為核心的閉環認知架構 |
 | **POG** | Prompt Orchestration Governance | 將 Prompt 轉化為受治理任務的範式 |
 | **POG Task** | — | TOK 在軟體開發領域的具體實作 |
@@ -546,7 +546,7 @@ versioning:
 **Ted Enjtorian**  
 *框架觀察者與主要作者*
 
-身為擁有超過 20 年經驗的軟體系統架構師，我在反覆使用 LLM 的過程中察覺到一個根本性的轉變：Prompt 不再是一次性的指令，而是可重用的認知結構。這一靈光一閃揭示了一個更深層的真理——**任務正在從人類的心理單位，演化為系統的執行 Primitive**。
+身為擁有超過 20 年經驗的軟體系統架構師，我在反覆使用 LLM 的過程中察覺到一個根本性的轉變：Prompt 不再是一次性的指令，而是可重用的認知結構。這一靈光一閃揭示了一個更深層的真理**任務正在從人類的心理單位，演化為系統的執行 Primitive**。
 
 TOK 不是一項發明，而是對一個自然演進過程的形式化描述。就像 Unix 並非發明了「檔案」的概念，而是第一次將其形式化為系統 Primitive；TOK 同樣是第一次將「任務」形式化為可被 AI 原生執行的系統 Primitive。
 
